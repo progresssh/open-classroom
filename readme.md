@@ -1,3 +1,3 @@
-## Projet HTML5 CSS3 Open Classroom
+## Nujabes Tribute Website
 
 [Link to the site](https://open-classroom-pink.vercel.app/)
