@@ -1,3 +1,1 @@
-## Mes projets OpenClassroom
-
-- 1603881 - Créez votre site web avec HTML5 et CSS3
+## Projet HTML5 CSS3 Open Classroom
