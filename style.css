@@ -1,0 +1,73 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0.2vmax;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #eeeeee;
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+}
+
+.flex-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-div {
+  padding: 1rem;
+  width: auto;
+  background-color: darkorange;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-caption {
+  text-align: center;
+}
+
+.tribute-info {
+  width: 50vmax;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.tribute-link {
+  text-align: center;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+.closing-words {
+  width: 50vmax;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .closing-words {
+    width: 80vw;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    text-align: left;
+  }
+
+  .tribute-info {
+    width: 80vw;
+    text-align: left;
+  }
+}
