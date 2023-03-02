@@ -20,7 +20,6 @@ a:visited {
 }
 
 a:hover {
-  color: black;
   background-color: coral;
   color: white;
 }
@@ -55,6 +54,7 @@ a:hover {
 
 .img-caption {
   text-align: center;
+  padding: 2rem;
 }
 
 .tribute-info {
