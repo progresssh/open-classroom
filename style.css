@@ -6,9 +6,29 @@ body {
   background-color: #eeeeee;
 }
 
+a {
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  text-decoration: none;
+  background-color: orange;
+  color: black;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  background-color: coral;
+  color: white;
+}
+
 .title {
   text-align: center;
   font-weight: 500;
+  margin-top: 2rem;
 }
 
 .flex-container {
@@ -39,7 +59,7 @@ body {
 
 .tribute-info {
   width: 50vmax;
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: left;
 }
 
@@ -54,20 +74,43 @@ li {
 .closing-words {
   width: 50vmax;
   margin-top: 2rem;
-  margin-right: 2rem;
-  text-align: left;
+  text-align: center;
+}
+
+.tribute-footer {
+  margin-top: 2rem;
+  width: 50vmax;
+  text-align: center;
+}
+
+.nujabes-citation {
+  padding: 5px;
+  border: 2px solid;
+  border-color: orange;
 }
 
 @media (max-width: 900px) {
   .closing-words {
     width: 80vw;
-    margin-top: 2rem;
-    margin-right: 2rem;
-    text-align: left;
+    margin-top: 1rem;
+
+    text-align: center;
   }
 
   .tribute-info {
     width: 80vw;
-    text-align: left;
+  }
+
+  .tribute-footer {
+    margin-top: 2rem;
+    width: 80vw;
+    text-align: center;
+  }
+
+  .nujabes-citation {
+    padding: 0px;
+    border: 2px solid;
+    display: block;
+    border-color: orange;
   }
 }
